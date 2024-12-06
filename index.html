@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CursedCoin ($HEX)</title>
     <style>
+        /* General Styles */
         body {
             background: linear-gradient(to bottom, #000, #2b0033);
             color: #f5e1a4;
@@ -13,6 +14,7 @@
             padding: 0;
         }
 
+        /* Header Styles */
         header {
             text-align: center;
             padding: 50px 20px;
@@ -24,6 +26,7 @@
         h1 {
             font-size: 3em;
             text-shadow: 0 0 20px #ffcc00;
+            margin: 0;
         }
 
         p {
@@ -31,6 +34,7 @@
             margin: 10px 0;
         }
 
+        /* Button Styles */
         .button {
             background-color: #5b2671;
             color: #fff;
@@ -39,13 +43,16 @@
             border-radius: 5px;
             box-shadow: 0 0 15px #5b2671;
             font-size: 1.2em;
+            transition: all 0.3s ease-in-out;
         }
 
         .button:hover {
             background-color: #3a1850;
-            box-shadow: 0 0 25px #ffcc00;
+            box-shadow: 0 0 25px #ffcc00, 0 0 35px #ffcc00;
+            transform: scale(1.1);
         }
 
+        /* Section Styles */
         .section {
             padding: 50px 20px;
             text-align: center;
@@ -60,8 +67,10 @@
             text-align: left;
             margin: 0 auto;
             display: inline-block;
+            font-size: 1.2em;
         }
 
+        /* Footer Styles */
         footer {
             text-align: center;
             padding: 20px;
@@ -73,30 +82,35 @@
     </style>
 </head>
 <body>
+    <!-- Header -->
     <header>
         <h1>CursedCoin ($HEX)</h1>
-        <p>Holdea o enfréntate a la maldición.</p>
-        <a class="button" href="#buy">Cómo Comprar</a>
+        <p>Hold or face the curse.</p>
+        <a class="button" href="#how-to-buy">How to Buy</a>
     </header>
 
+    <!-- About Section -->
     <section class="section">
-        <h2>¿Qué es CursedCoin?</h2>
-        <p>Cada token está maldito. Los fieles prosperan, los traidores pagan el precio.</p>
+        <h2>What is CursedCoin?</h2>
+        <p>Each token carries a curse. Faithful holders prosper, while traitors pay the price.</p>
     </section>
 
-    <section id="buy" class="section">
-        <h2>Cómo Comprar</h2>
-        <p>Sigue estos simples pasos para unirte al pacto.</p>
+    <!-- How to Buy Section -->
+    <section id="how-to-buy" class="section">
+        <h2>How to Buy</h2>
+        <p>Follow these simple steps to join the pact.</p>
         <ol>
-            <li>Instala una billetera como Phantom.</li>
-            <li>Compra SOL en un exchange como Binance o Coinbase.</li>
-            <li>Ve a Raydium y busca $HEX.</li>
-            <li>Haz tu compra y holdea para evitar la maldición.</li>
+            <li>Install a wallet like <a href="https://phantom.app/" target="_blank">Phantom</a>.</li>
+            <li>Buy SOL on an exchange like Binance or Coinbase.</li>
+            <li>Go to a DEX (e.g., Raydium) and search for $HEX.</li>
+            <li>Complete your purchase and hold to avoid the curse.</li>
         </ol>
     </section>
 
+    <!-- Footer -->
     <footer>
-        <p>© 2024 CursedCoin. Todos los derechos reservados.</p>
+        <p>© 2024 CursedCoin. All rights reserved.</p>
+        <p>Questions? <a href="mailto:support@cursedcoin.io" style="color: #ffcc00; text-decoration: none;">Contact Us</a></p>
     </footer>
 </body>
 </html>
